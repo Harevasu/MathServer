@@ -32,41 +32,34 @@ Publish the website in the given URL.
 ## PROGRAM :
 ```
 math.html
-
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <title>Area of Surface</title>
-<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='viewport' content='width=device-width initial-scale=1'>
 <style type="text/css">
 body {
-    background-color: lavender;
-}
+    background-color: lavender;}
 .edge {
     width: 100%;
     padding-top: 250px;
-    text-align: center;
-}
+    text-align: center;}
 .box {
     display: inline-block;
     border: thick dashed rgb(123, 171, 239);
     width: 500px;
     min-height: 300px;
     font-size: 20px;
-    background-color: rgb(231, 239, 116);
-}
+    background-color: rgb(231, 239, 116);}
 .formelt {
     color: black;
     text-align: center;
     margin-top: 7px;
-    margin-bottom: 6px;
-}
+    margin-bottom: 6px;}
 h1 {
     color: black;
-    padding-top: 20px;
-}
+    padding-top: 20px;}
 </style>
 </head>
 <body>
@@ -90,9 +83,7 @@ h1 {
             </div>
         </form>
     </div>
-</div>
-</body>
-</html>
+</div></body></html>
 ```
 ```
 views.py

@@ -33,8 +33,10 @@ body {background-color: lavender;}
 .edge {
     width: 100%;padding-top: 250px;text-align: center;}
 .box {
-    display: inline-block;border: thick dashed rgb(123, 171, 239);width: 500px;
-    min-height: 300px;font-size: 20px;background-color: rgb(231, 239, 116);}
+    display: inline-block;border: thick dashed rgb(123, 171, 239);
+    width: 500px;
+    min-height: 300px;font-size: 20px;
+    background-color: rgb(231, 239, 116);}
 .formelt {
     color: black;text-align: center;
     margin-top: 7px;margin-bottom: 6px;}
@@ -55,7 +57,8 @@ padding-top: 20px;}
             <div class="formelt">
                 <input type="submit" value="Calculate"><br/></div>
             <div class="formelt">
-                Area: <input type="text" name="area" value="{{area}}">m<sup>2</sup><br/>
+                Area: <input type="text" name="area" value="{{area}}">m<sup>2</sup>
+                <br/>
             </div>
         </form>
     </div>

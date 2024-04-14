@@ -24,33 +24,22 @@ Publish the website in the given URL.
 ```
 math.html
 <!DOCTYPE html>
-<html><head>
-<meta charset='utf-8'>
+<html><head><meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <title>Area of Surface</title>
 <meta name='viewport' content='width=device-width initial-scale=1'>
 <style type="text/css">
-body {
-    background-color: lavender;}
+body {background-color: lavender;}
 .edge {
-    width: 100%;
-    padding-top: 250px;
-    text-align: center;}
+    width: 100%;padding-top: 250px;text-align: center;}
 .box {
-    display: inline-block;
-    border: thick dashed rgb(123, 171, 239);
-    width: 500px;
-    min-height: 300px;
-    font-size: 20px;
-    background-color: rgb(231, 239, 116);}
+    display: inline-block;border: thick dashed rgb(123, 171, 239);width: 500px;
+    min-height: 300px;font-size: 20px;background-color: rgb(231, 239, 116);}
 .formelt {
-    color: black;
-    text-align: center;
-    margin-top: 7px;
-    margin-bottom: 6px;}
+    color: black;text-align: center;
+    margin-top: 7px;margin-bottom: 6px;}
 h1 {
-    color: black;
-    padding-top: 20px;}
+    color: black;padding-top: 20px;}
 </style></head><body>
 <div class="edge">
     <div class="box">
@@ -66,9 +55,7 @@ h1 {
                 <input type="submit" value="Calculate"><br/></div>
             <div class="formelt">
                 Area: <input type="text" name="area" value="{{area}}">m<sup>2</sup><br/>
-            </div>
-        </form>
-    </div>
+            </div></form></div>
 </div></body></html>
 ```
 ```

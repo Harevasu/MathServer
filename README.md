@@ -39,7 +39,8 @@ body {background-color: lavender;}
     color: black;text-align: center;
     margin-top: 7px;margin-bottom: 6px;}
 h1 {
-    color: black;padding-top: 20px;}
+    color: black;
+padding-top: 20px;}
 </style></head><body>
 <div class="edge">
     <div class="box">
@@ -55,7 +56,9 @@ h1 {
                 <input type="submit" value="Calculate"><br/></div>
             <div class="formelt">
                 Area: <input type="text" name="area" value="{{area}}">m<sup>2</sup><br/>
-            </div></form></div>
+            </div>
+        </form>
+    </div>
 </div></body></html>
 ```
 ```
